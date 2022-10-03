@@ -13,6 +13,8 @@ body {
 .main {
     background: #1F2937;
     padding: 10px;
+    padding-bottom: 300px;
+    text-align: center;
 }
 
 .section {
