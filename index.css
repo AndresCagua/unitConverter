@@ -14,7 +14,7 @@ body {
     background: #1F2937;
     padding: 10px;
     padding-bottom: 300px;
-    text-align: center;
+    justify-content: space-between;
 }
 
 .section {
