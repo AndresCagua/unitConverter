@@ -1,7 +1,13 @@
+@font-face{
+    src: url("evilgeniusbb_reg.ttf");
+    font-family: Evil;
+}
+
+
 body {
     margin: 0;
     text-align: center;
-     
+    font-family: Evil;
 }
 
 .hero {
@@ -15,6 +21,7 @@ body {
     padding: 10px;
     padding-bottom: 300px;
     justify-content: space-between;
+    
 }
 
 .section {
@@ -22,16 +29,15 @@ body {
 
 left: 25px;
 top: 25px;
-
 background: #273549;
 border-radius: 4.68077px 0px 0px 0px;
+
 }
 #convert-btn{
-width: 117px;
+width: 217px;
 height: 42px;
 left: 217px;
 top: 209px;
-
 background: #FFFFFF;
 
 /* shadow/sm */
@@ -69,9 +75,6 @@ padding-top: 10px;
 
 left: 77px;
 top: 31px;
-
-font-family: 'Inter';
-font-style: normal;
 font-weight: 600;
 font-size: 20px;
 line-height: 20px;
@@ -89,8 +92,6 @@ left: 77px;
 top: 65px;
 
 /* text-sm/leading-5/font-normal */
-font-family: 'Inter';
-font-style: normal;
 font-weight: 400;
 font-size: 14px;
 line-height: 20px;
